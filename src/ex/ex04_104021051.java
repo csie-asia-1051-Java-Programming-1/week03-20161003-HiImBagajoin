@@ -5,18 +5,19 @@ package ex;
  * Author: 1050210XX 周永振老師
  */
 import java.util.Scanner;
-public class ex04_1050210XX {
+public class ex04_104021051 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 Scanner scn=new Scanner(System.in);
-String str=scn.next();
-char[] data=str.toCharArray();
-for (int i=0;i<data.length;i++){
-	int sum=0;
-	sum=sum+data[i];
-	System.out.print(sum);
+long v1=scn.nextLong();
+long sum=0;
+while(v1>0){
+	sum=sum+v1%10;
+	v1=v1/10;
+	}
+System.out.print(sum);
 }
 	}
 
-}
+

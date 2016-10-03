@@ -5,7 +5,7 @@ package ex;
  * Author: 1050210XX 周永振老師
  */
 import java.util.Scanner;
-public class ex02_1050210XX {
+public class ex02_104021051 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

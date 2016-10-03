@@ -5,7 +5,7 @@ package ex;
  * Author: 104021051 周永振老師
  */
 import java.util.Scanner; 
-public class ex03_1050210XX {
+public class ex03_104021051 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -18,7 +18,8 @@ if(v1>=0 && v1<26){
 //	System.out.print(str.toUpperCase());
 }else{
 	v1=ch1-'A';
-	if(v1>=65 && v1<=90){
+	if(v1>=0 && v1<=26){
+		System.out.print((char)('a' + v1));
 //		System.out.print(str.toLowerCase());
 	}
 }
