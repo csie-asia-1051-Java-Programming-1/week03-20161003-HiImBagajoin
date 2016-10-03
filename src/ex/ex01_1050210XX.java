@@ -4,12 +4,17 @@ package ex;
  * Date: 2016/10/03
  * Author: 1050210XX 周永振老師
  */
-
+import java.util.Scanner;
 public class ex01_1050210XX {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		Scanner scn=new Scanner(System.in);
+		String str=scn.next();
+		char[] data=str.toCharArray();
+		for (int i=data.length-1;i>=0;i--){
+			System.out.print(data[i]);
+		}
 	}
 
 }

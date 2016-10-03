@@ -4,11 +4,22 @@ package ex;
  * Date: 2016/10/03
  * Author: 1050210XX 周永振老師
  */
-
+import java.util.Scanner;
 public class ex02_1050210XX {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		Scanner scn=new Scanner(System.in);
+		char ch1=scn.next().charAt(0);
+		int v1=ch1-'a';
+		if(v1>=0 && v1<26){
+			System.out.print("小寫");
+		}else{
+			v1=ch1-'A';
+			if(v1>=0 && v1<26){
+				System.out.print("大寫");
+			}
+		}
 
 	}
 
